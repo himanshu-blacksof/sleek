@@ -1,0 +1,94 @@
+h1 {
+  font-family: Georgia, serif, ' Regular';
+  font-size: 7rem;
+  color: #476f66;
+  margin-left: 9%;
+}
+h2 {
+  font-family: Georgia, serif, ' Regular';
+  font-size: 3rem;
+  color: #476f66;
+}
+.text_wrapper p {
+  color: #dab188;
+  font-size: 1.5rem;
+}
+.main_container {
+  background-color: #ffffff;
+}
+.contact_wrapper {
+  background-color: #eeeeee;
+  width: 80%;
+  margin: auto;
+  border-radius: 2px;
+  height: 100vh;
+}
+.text_wrapper {
+  text-align: center;
+}
+.internal_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.contact_img_wrapper {
+  max-width: 100%;
+  margin-right: 5%;
+}
+.contact_info_wrapper p {
+  color: #476f66;
+}
+input {
+  padding: 10px;
+  max-width: 100%;
+  width: 85%;
+}
+.btn_wrapper {
+  text-align: center;
+  padding: 2rem;
+}
+button {
+  width: 20vw;
+  height: 6vh;
+  border-color: #dab188;
+  color: #dab188;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #dab188;
+  color: #eeeeee;
+  cursor: pointer;
+}
+.contact_info {
+  margin-top: 5%;
+}
+.contact_info_name input {
+  border-color: #476f66;
+  color: #476f66;
+}
+.address_wrapper {
+  background-color: #476f66;
+  width: 22vw;
+  height: 60vh;
+  float: right;
+  margin-right: 15%;
+  margin-top: 10%;
+}
+.address_wrapper h3 {
+  color: #dab188;
+  font-size: 2rem;
+}
+.text_address p {
+  color: #ffffff;
+  size: 1rem;
+}
+.text_address {
+  text-align: center;
+}
+.phone {
+  margin-right: 1rem;
+}
+hr {
+  width: 80%;
+  border-color: #dab188;
+}
