@@ -2,9 +2,6 @@ h3 {
   color: #476f66;
   font-size: 30px;
 }
-.main_div {
-  /* margin-left: 15%; */
-}
 .main_heading {
   display: flex;
   justify-content: space-between;

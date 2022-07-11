@@ -1,15 +1,18 @@
 h1 {
-  font-family: Georgia, serif, ' Regular';
   font-size: 7rem;
   color: #476f66;
+  /* margin-left: 12%; */
+  width: auto;
+}
+.contact_heading_wrapper {
   margin-left: 12%;
 }
 h2 {
-  font-family: Georgia, serif, ' Regular';
   font-size: 3rem;
   color: #476f66;
+  width: auto;
 }
-.text_wrapper p {
+p {
   color: #dab188;
   font-size: 1.5rem;
 }
