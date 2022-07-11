@@ -1,6 +1,29 @@
-/* h1 {
-  font-family: Georgia, serif, ' Regular';
-  font-size: 7rem;
+h3 {
   color: #476f66;
-  position: relative;
-} */
+  font-size: 30px;
+}
+.main_div {
+  /* margin-left: 15%; */
+}
+.main_heading {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+.plus_wrapper {
+  margin-right: 30%;
+  margin-top: 3%;
+}
+.info_container hr {
+  width: 60%;
+}
+.detail_wrapper {
+  width: 55%;
+  margin-left: 20%;
+}
+.plus_wrapper:hover {
+  cursor: pointer;
+}
+.b {
+  border: 1px solid red;
+}

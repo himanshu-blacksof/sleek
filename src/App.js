@@ -4,7 +4,7 @@ import Support from './Component/Support';
 function App() {
   return (
     <>
-      <Contact />
+      {/* <Contact /> */}
       <Support />
     </>
   );

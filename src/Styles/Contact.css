@@ -2,7 +2,7 @@ h1 {
   font-family: Georgia, serif, ' Regular';
   font-size: 7rem;
   color: #476f66;
-  margin-left: 9%;
+  margin-left: 12%;
 }
 h2 {
   font-family: Georgia, serif, ' Regular';
@@ -77,10 +77,12 @@ button:hover {
 .address_wrapper h3 {
   color: #dab188;
   font-size: 2rem;
+  width: 70%;
 }
 .text_address p {
   color: #ffffff;
   size: 1rem;
+  width: 90%;
 }
 .text_address {
   text-align: center;

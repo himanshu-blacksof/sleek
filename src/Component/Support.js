@@ -1,9 +1,17 @@
+import React, { useState } from 'react';
 import '../Styles/support.css';
+import { Data } from './Data';
+import Info from './Info';
 const Support = () => {
+  const [question, setQuestions] = useState(Data);
   return (
     <>
-      <section className="main_container">
-        <h1>Support</h1>
+      <h1>Support</h1>
+      <section className="main_div">
+        {question.map((curElem) => {
+          const { info } = curElem;
+          return <Info key={info} {...curElem} />;
+        })}
       </section>
     </>
   );
